@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".EventPageFragment" >
+
+    <Button
+        android:id="@+id/calendarIntent"
+        android:layout_width="280px"
+        android:layout_height="60px"
+        android:layout_gravity="center"
+        android:text="Send Data to Calendar"
+        android:onClick="process"
+        android:textSize="18px" />
+    
+    <Button
+        android:id="@+id/mapsIntent"
+        android:layout_width="280px"
+        android:layout_height="60px"
+        android:layout_gravity="center"
+        android:text="find using maps"
+        android:textSize="18px" />
+    
+
+    <ImageView 
+        android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/default_spacing"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_launcher"/>
+    
+    <TextView 
+        android:id="@+id/suburb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/default_spacing"
+        android:textAppearance="?android:attr/textAppearanceSmall"/>
+    
+    <TextView
+ 		android:id="@+id/price"
+ 		android:layout_width="wrap_content"
+ 		android:layout_height="wrap_content"
+ 		android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    <TextView 
+        android:id="@+id/event"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"/>
+    
+    <TextView 
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"/>
+    
+    <TextView 
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"/>
+    
+    <TextView 
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"/>
+    
+
+
+
+</LinearLayout>
